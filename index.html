@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Elvis Brito - Advogado Criminal | Especialista em Ciências Criminais</title>
+    <meta name="description" content="Dr. Elvis Brito - Advogado Criminal especialista em Tribunal do Júri, Lei de Drogas e Habeas Corpus. Defesa técnica especializada há mais de 5 anos.">
+    <meta name="author" content="Dr. Elvis Brito">
+    <meta name="keywords" content="advogado criminal, tribunal do júri, lei de drogas, habeas corpus, defesa criminal, advogado, Piauí">
+    
+    <meta property="og:title" content="Dr. Elvis Brito - Advogado Criminal">
+    <meta property="og:description" content="Especialista em Ciências Criminais com longo tempo de experiência. Defesa técnica em Tribunal do Júri, Lei de Drogas e Habeas Corpus.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="advogado-elvis-brito.jpg">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="advogado-elvis-brito.jpg">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo hide-on-mobile">
+                    <div class="logo-text">
+                        <h3>DR. ELVIS BRITO</h3>
+                        <span>Advogado Criminal</span>
+                        <div class="logo-bar"></div>
+                    </div>
+                </div>
+                <nav class="nav-menu" id="nav-menu">
+                    <ul>
+                        <li><a href="#inicio" onclick="smoothScroll('#inicio');" class="menu-icon-top"><span class="menu-icon"><i class="bi bi-house-door"></i></span><span class="menu-label">Início</span></a></li>
+                        <li><a href="#sobre" onclick="smoothScroll('#sobre');" class="menu-icon-top"><span class="menu-icon"><i class="bi bi-person"></i></span><span class="menu-label">Sobre</span></a></li>
+                        <li><a href="#especialidades" onclick="smoothScroll('#especialidades');" class="menu-icon-top"><span class="menu-icon"><i class="bi bi-award"></i></span><span class="menu-label">Especialidades</span></a></li>
+                        <li><a href="#operacoes" onclick="smoothScroll('#operacoes');" class="menu-icon-top"><span class="menu-icon"><i class="bi bi-briefcase"></i></span><span class="menu-label">Operações</span></a></li>
+                        <li><a href="#servicos" onclick="smoothScroll('#servicos');" class="menu-icon-top"><span class="menu-icon"><i class="bi bi-list-check"></i></span><span class="menu-label">Serviços</span></a></li>
+                        <li><a href="#faq" onclick="smoothScroll('#faq');" class="menu-icon-top"><span class="menu-icon"><i class="bi bi-question-circle"></i></span><span class="menu-label">FAQ</span></a></li>
+                        <li><a href="#contato" onclick="smoothScroll('#contato');" class="menu-icon-top"><span class="menu-icon"><i class="bi bi-envelope"></i></span><span class="menu-label">Contato</span></a></li>
+                    </ul>
+                </nav>
+                <button class="hamburger-btn show-on-mobile" id="hamburger-btn" onclick="toggleMobileMenu()">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <div class="nav-buttons">
+                    <button class="btn-header pulse" onclick="openWhatsApp()">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Entrar em Contato
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay" onclick="toggleMobileMenu()"></div>
+
+    <!-- Mobile Menu Sidebar -->
+    <nav class="mobile-menu-sidebar" id="mobile-menu-sidebar">
+        <div class="mobile-menu-header">
+            <h3>NAVEGAÇÃO</h3>
+            <button class="mobile-menu-close" onclick="toggleMobileMenu()">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </div>
+        <ul class="mobile-menu-list">
+            <li><a href="#inicio" onclick="smoothScroll('#inicio'); toggleMobileMenu();"><i class="bi bi-house-door"></i> Início</a></li>
+            <li><a href="#sobre" onclick="smoothScroll('#sobre'); toggleMobileMenu();"><i class="bi bi-person"></i> Sobre</a></li>
+            <li><a href="#especialidades" onclick="smoothScroll('#especialidades'); toggleMobileMenu();"><i class="bi bi-award"></i> Especialidades</a></li>
+            <li><a href="#operacoes" onclick="smoothScroll('#operacoes'); toggleMobileMenu();"><i class="bi bi-briefcase"></i> Operações</a></li>
+            <li><a href="#servicos" onclick="smoothScroll('#servicos'); toggleMobileMenu();"><i class="bi bi-list-check"></i> Serviços</a></li>
+            <li><a href="#faq" onclick="smoothScroll('#faq'); toggleMobileMenu();"><i class="bi bi-question-circle"></i> FAQ</a></li>
+            <li><a href="#contato" onclick="smoothScroll('#contato'); toggleMobileMenu();"><i class="bi bi-envelope"></i> Contato</a></li>
+        </ul>
+        <div class="mobile-menu-footer">
+            <div class="mobile-menu-divider"></div>
+            <button class="mobile-menu-cta" onclick="openWhatsApp(); toggleMobileMenu();">
+                <i class="bi bi-whatsapp"></i> Entrar em Contato
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-bg-detail"></div>
+    <section class="hero-section" id="inicio">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Conteúdo de Texto - Esquerda -->
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="bi bi-shield-check"></i> OAB/PI nº 20.005
+                    </div>
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="hero-title-main">DR. <span class="accent-text">ELVIS</span></span><br>
+                            <span class="accent-text hero-name">BRITO</span>
+                        </h1>
+                        <p class="hero-subtitle">Advogado Criminal</p>
+                        <p class="hero-specialty">Especialista em Ciências Criminais</p>
+                        <div class="hero-divider"></div>
+                    </div>
+                    
+                    <p class="hero-description">
+                        Defesa técnica especializada em Tribunal do Júri, Lei de Drogas e Habeas Corpus. 
+                        Há muitos anos protegendo direitos e garantindo justiça com dedicação e excelência.
+                    </p>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <i class="bi bi-mortarboard"></i>
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="bi bi-people"></i>
+                            <span class="stat-number">300+</span>
+                            <span class="stat-label">Casos Atendidos</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="bi bi-clock-history"></i>
+                            <span class="stat-number">24h</span>
+                            <span class="stat-label">Atendimento Emergencial</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <button class="btn-primary pulse" onclick="openWhatsApp()">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            Entrar em Contato
+                        </button>
+                        <button class="btn-secondary" onclick="openInstagram()">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="m16 11.37-4-4-4 4"></path>
+                                <path d="m12 15.63 0-12.63"></path>
+                            </svg>
+                            Siga no Instagram
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Imagem do Advogado - Direita -->
+                <div class="hero-image">
+                    <div class="hero-image-glow"></div>
+                    <div class="image-container">
+                        <img src="./advogado elvis brito.jpg" alt="Dr. Elvis Brito - Advogado Criminal" class="profile-image">
+                    </div>
+                    <div class="image-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider decorativo -->
+    <div class="section-divider">
+        <i class="bi bi-stars"></i>
+    </div>
+    <!-- About Section -->
+    <section class="about-section" id="sobre">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-badge">
+                        <i class="bi bi-award"></i> Excelência em Defesa Criminal
+                    </div>
+                    <div class="section-header">
+                        <h2 class="section-title">Sobre Dr. Elvis Brito</h2>
+                        <p class="section-subtitle">
+                            Mais de 5 anos dedicados à defesa criminal com excelência e compromisso
+                        </p>
+                    </div>
+
+                    <div class="about-text">
+                        <p>
+                            Dr. Elvis Brito é um advogado criminalista com sólida formação acadêmica e vasta experiência prática 
+                            na defesa de direitos fundamentais. Especialista em Ciências Criminais, dedica sua carreira à proteção 
+                            dos direitos constitucionais e à garantia de um processo justo para todos os seus clientes.
+                        </p>
+                        
+                        <p>
+                            Com anos de atuação na seara criminal Dr. Elvis construiu uma reputação baseada na competência técnica, 
+                            ética profissional e dedicação incansável aos casos que assume. Sua abordagem combina conhecimento 
+                            jurídico profundo com estratégias inovadoras de defesa.
+                        </p>
+                    </div>
+
+                    <div class="credentials">
+                        <div class="credential-item">
+                            <div class="credential-icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Formação Acadêmica</h4>
+                                <p>Bacharel em Direito com Especialização em Ciências Criminais e Jurisprudência Penal</p>
+                            </div>
+                        </div>
+
+                        <div class="credential-item">
+                            <div class="credential-icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Registro Profissional</h4>
+                                <p>OAB/PI nº 20.005</p>
+                            </div>
+                        </div>
+
+                        <div class="credential-item">
+                            <div class="credential-icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Experiência</h4>
+                                <p>Mais de 5 anos atuando em Direito Penal e Processual Penal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <h3>Missão</h3>
+                        <p>Garantir a defesa técnica de qualidade, protegendo os direitos fundamentais e promovendo a justiça em cada caso.</p>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <h3>Valores</h3>
+                        <p>Ética, transparência, dedicação e excelência técnica são os pilares que norteiam nossa atuação profissional.</p>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <h3>Compromisso</h3>
+                        <p>Atendimento personalizado e acompanhamento integral em todas as fases do processo judicial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialization Section -->
+    <section class="specialization-section" id="especialidades">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Áreas de Especialização</h2>
+                <p class="section-subtitle">
+                    Defesa técnica especializada nas principais áreas do Direito Criminal
+                </p>
+            </div>
+
+            <div class="specialization-grid">
+                <div class="specialization-card">
+                    <div class="card-header">
+                        <div class="icon-container">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 3v18m-4-8 4-4 4 4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Tribunal do Júri</h3>
+                        <p class="card-description">
+                            Defesa especializada em crimes dolosos contra a vida com estratégia técnica e persuasiva.
+                        </p>
+                    </div>
+                    
+                    <div class="topics-list">
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Homicídio</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Feminicídio</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Tentativa de Homicídio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specialization-card">
+                    <div class="card-header">
+                        <div class="icon-container">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Lei de Drogas</h3>
+                        <p class="card-description">
+                            Atuação técnica em crimes relacionados a entorpecentes com foco na desclassificação.
+                        </p>
+                    </div>
+                    
+                    <div class="topics-list">
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Tráfico de Drogas</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Porte para Uso</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Associação para o Tráfico</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Financiamento ao Tráfico</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specialization-card">
+                    <div class="card-header">
+                        <div class="icon-container">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 6h18l-2 13H5L3 6z"></path>
+                                <path d="m3 6-2-2"></path>
+                                <path d="M8 10v4"></path>
+                                <path d="M16 10v4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Habeas Corpus</h3>
+                        <p class="card-description">
+                            Impetração de HC preventivo e liberatório para garantir o direito de liberdade.
+                        </p>
+                    </div>
+                    
+                    <div class="topics-list">
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>HC Preventivo</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>HC Liberatório</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Relaxamento de Prisão</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Liberdade Provisória</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specialization-card">
+                    <div class="card-header">
+                        <div class="icon-container">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"></path>
+                                <path d="M8 12l2 2 4-4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Operações Policiais</h3>
+                        <p class="card-description">
+                            Defesa especializada em crimes de maior complexidade investigativa com atuação em operações federais e estaduais.
+                        </p>
+                    </div>
+                    
+                    <div class="topics-list">
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Lavagem de Dinheiro</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Organização Criminosa</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Crimes Econômicos</span>
+                        </div>
+                        <div class="topic-item">
+                            <div class="check-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                            </div>
+                            <span>Crimes Federais</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operations Section -->
+    <section class="operations-section" id="operacoes">
+        <div class="container">
+            <div class="operations-content">
+                <div class="section-header">
+                    <h2 class="section-title light">OPERAÇÕES EM QUE JÁ ATUOU</h2>
+                </div>
+                
+                <div class="operations-grid">
+                    <div class="operations-column">
+                        <div class="operation-item" id="op-delivery" data-links="https://www.google.com/search?q=Operacao+Delivery">
+                            <div class="operation-bullet"></div>
+                            <span>Delivery</span>
+                        </div>
+                        <div class="operation-item" id="op-exodo-seguro" data-links="https://www.google.com/search?q=Operacao+Exodo+Seguro">
+                            <div class="operation-bullet"></div>
+                            <span>Êxodo Seguro</span>
+                        </div>
+                        <div class="operation-item" id="op-sheik" data-links="https://www.google.com/search?q=Operacao+Sheik">
+                            <div class="operation-bullet"></div>
+                            <span>Sheik</span>
+                        </div>
+                        <div class="operation-item" id="op-disciplina" data-links="https://www.google.com/search?q=Operacao+Disciplina">
+                            <div class="operation-bullet"></div>
+                            <span>Disciplina</span>
+                        </div>
+                        <div class="operation-item" id="op-fraus" data-links="https://www.google.com/search?q=Operacao+Fraus+PE">
+                            <div class="operation-bullet"></div>
+                            <span>Fraus (PE)</span>
+                        </div>
+                        <div class="operation-item" id="op-boca-fechada" data-links="https://www.riachaonet.com.br/portal/operacao-boca-fechada-prende-oito-pessoas-e-apreende-drogas-armas-e-dinheiro-em-cidades-da-regiao-de-picos/">
+                            <div class="operation-bullet"></div>
+                            <span>Boca Fechada</span>
+                        </div>
+                    </div>
+                    
+                    <div class="operations-column">
+                        <div class="operation-item" id="op-nark-ii" data-links="https://www.google.com/search?q=Operacao+Nark+II">
+                            <div class="operation-bullet"></div>
+                            <span>Nark II</span>
+                        </div>
+                        <div class="operation-item" id="op-nordeste-integrado" data-links="https://www.google.com/search?q=Operacao+Nordeste+Integrado">
+                            <div class="operation-bullet"></div>
+                            <span>Nordeste Integrado</span>
+                        </div>
+                        <div class="operation-item" id="op-crepusculo" data-links="https://www.google.com/search?q=Operacao+Crepusculo">
+                            <div class="operation-bullet"></div>
+                            <span>Crepúsculo</span>
+                        </div>
+                        <div class="operation-item" id="op-protetor" data-links="https://www.google.com/search?q=Operacao+Protetor+GO">
+                            <div class="operation-bullet"></div>
+                            <span>Protetor (GO)</span>
+                        </div>
+                        <div class="operation-item" id="op-avast" data-links="https://www.google.com/search?q=Operacao+Avast">
+                            <div class="operation-bullet"></div>
+                            <span>Avast</span>
+                        </div>
+                        <div class="operation-item" id="op-crepusculo-ii" data-links="https://www.gp1.com.br/policia/noticia/2025/12/17/draco-deflagra-operacao-crepusculo-ii-e-cumpre-35-mandados-contra-o-pcc-no-piaui-e-em-sao-paulo-610747.html">
+                            <div class="operation-bullet"></div>
+                            <span>Crespúsculo II</span>
+                        </div>
+                    </div>
+                    
+                    <div class="operations-column">
+                        <div class="operation-item" id="op-corpo-fechado" data-links="https://www.google.com/search?q=Operacao+Corpo+Fechado">
+                            <div class="operation-bullet"></div>
+                            <span>Corpo Fechado</span>
+                        </div>
+                        <div class="operation-item" id="op-cerco-fechado" data-links="https://www.google.com/search?q=Operacao+Cerco+Fechado">
+                            <div class="operation-bullet"></div>
+                            <span>Cerco Fechado</span>
+                        </div>
+                        <div class="operation-item" id="op-cerne-iv" data-links="https://www.google.com/search?q=Operacao+Cerne+IV">
+                            <div class="operation-bullet"></div>
+                            <span>Cerne IV (anulada no STJ)</span>
+                        </div>
+                        <div class="operation-item" id="op-cerne-v" data-links="https://www.google.com/search?q=Operacao+Cerne+V">
+                            <div class="operation-bullet"></div>
+                            <span>Cerne V</span>
+                        </div>
+                        <div class="operation-item" id="op-punare" data-links="https://www.google.com/search?q=Operacao+Punare">
+                            <div class="operation-bullet"></div>
+                            <span>Punaré</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p class="section-subtitle">
+                    Atendimento completo e personalizado para cada situação jurídica
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4"></path>
+                            <path d="M21 12c.552 0 1-.448 1-1V5c0-.552-.448-1-1-1H3c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1h18z"></path>
+                            <path d="M3 12v7c0 .552.448 1 1 1h16c.552 0 1-.448 1-1v-7"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Consultoria Jurídica</h3>
+                    <p class="service-description">
+                        Orientação jurídica especializada e análise detalhada do seu caso com estratégias personalizadas para cada situação.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Defesa Criminal</h3>
+                    <p class="service-description">
+                        Representação completa em processos criminais com acompanhamento em todas as fases processuais e defesa técnica robusta.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14,2 14,8 20,8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10,9 9,9 8,9"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Recursos e Apelações</h3>
+                    <p class="service-description">
+                        Interposição de recursos em todas as instâncias, buscando a reforma de decisões desfavoráveis com fundamentação sólida.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12,6 12,12 16,14"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Atendimento 24h</h3>
+                    <p class="service-description">
+                        Disponibilidade integral para emergências jurídicas, garantindo suporte imediato quando você mais precisa.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <p class="section-subtitle">
+                    Esclarecemos as principais dúvidas sobre nossos serviços
+                </p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>Como funciona a consulta?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A consulta, é uma conversa inicial onde analisamos seu caso, esclarecemos suas dúvidas e definimos a melhor estratégia de defesa. Pode ser realizada presencialmente ou por WhatsApp, sem compromisso.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>Qual o prazo para impetrar um Habeas Corpus?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O Habeas Corpus pode ser impetrado a qualquer momento quando há constrangimento ilegal à liberdade. Em casos de prisão em flagrante, é recomendável a impetração imediata para análise da legalidade da prisão.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>Como é calculado o valor dos honorários?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Os honorários são calculados considerando a complexidade do caso, o tempo estimado de duração, as instâncias envolvidas e a tabela da OAB. Oferecemos transparência total nos valores e formas de pagamento flexíveis.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>Vocês atendem em outras cidades além de Picos?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, atendemos em todo o estado do Piauí e, em casos específicos, em outros estados. Para casos fora de Picos, avaliamos a viabilidade e os custos de deslocamento durante a consulta.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>É possível acompanhar o andamento do processo?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutamente. Mantemos nossos clientes sempre informados sobre o andamento de seus processos através de relatórios periódicos, WhatsApp e reuniões presenciais quando necessário.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos de Clientes -->
+    <section class="testimonials-section" id="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <div class="testimonials-badge">
+                    <i class="bi bi-chat-left-quote"></i> Satisfação dos Clientes
+                </div>
+                <h2 class="section-title">O que nossos clientes dizem</h2>
+                <p class="section-subtitle">Histórias reais de pessoas que confiaram em nossa defesa técnica</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #5D1129 0%, #8B1A47 100%);">
+                            <span>JS</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">João S.</h4>
+                            <p class="testimonial-role">Caso Criminal</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"Profissionalismo e dedicação em cada etapa do processo. O Dr. Elvis foi extremamente atencioso e conseguiu um resultado fantástico para meu caso. Recomendo fortemente!"</p>
+                    <div class="testimonial-footer">
+                        <i class="bi bi-check-circle-fill"></i> Caso Resolvido
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #E67E22 0%, #D35400 100%);">
+                            <span>MF</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Maria F.</h4>
+                            <p class="testimonial-role">Habeas Corpus</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"Me senti seguro e acolhido desde o primeiro atendimento. A defesa foi impecável e conseguiu reverter uma situação muito complicada. Muito grata!"</p>
+                    <div class="testimonial-footer">
+                        <i class="bi bi-check-circle-fill"></i> HC Concedido
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #3498DB 0%, #2980B9 100%);">
+                            <span>CM</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Carlos M.</h4>
+                            <p class="testimonial-role">Lei de Drogas</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"Excelente advogado, resolveu meu caso com agilidade e competência técnica. Conseguiu desclassificar minha situação através de uma defesa brilhante!"</p>
+                    <div class="testimonial-footer">
+                        <i class="bi bi-check-circle-fill"></i> Desclassificado
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #27AE60 0%, #229954 100%);">
+                            <span>AP</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Ana P.</h4>
+                            <p class="testimonial-role">Tribunal do Júri</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"Dr. Elvis foi a salvação da minha família. Sua preparação para o júri foi impecável e conseguiu comprovar minha inocência. Eternamente grata!"</p>
+                    <div class="testimonial-footer">
+                        <i class="bi bi-check-circle-fill"></i> Absolvição
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #9B59B6 0%, #7D3C98 100%);">
+                            <span>RG</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Roberto G.</h4>
+                            <p class="testimonial-role">Apelação Criminal</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"Profissional de excelência! Conseguiu reformar minha condenação em primeira instância. Realmente acreditei na justiça novamente graças a ele."</p>
+                    <div class="testimonial-footer">
+                        <i class="bi bi-check-circle-fill"></i> Condenação Reformada
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #E74C3C 0%, #C0392B 100%);">
+                            <span>LM</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Lúcia M.</h4>
+                            <p class="testimonial-role">Consultoria Jurídica</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"Atendimento humanizado e defesa técnica de altíssimo nível. Dr. Elvis realmente se importa com seus clientes. Recomendo para todos que precisem de um advogado criminalista sério."</p>
+                    <div class="testimonial-footer">
+                        <i class="bi bi-check-circle-fill"></i> Seguro e Protegido
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title light">Entre em Contato</h2>
+                <p class="section-subtitle light">
+                    Agende sua consulta e receba orientação jurídica especializada
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Informações de Contato -->
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3 class="contact-title">Atendimento Personalizado</h3>
+                        <p class="contact-description">
+                            Disponível 24 horas para emergências jurídicas. Conte com uma defesa técnica 
+                            especializada e o suporte necessário quando mais precisar.
+                        </p>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-label">WhatsApp</p>
+                                <p class="contact-value">(89) 9 9453-5859</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="m16 11.37-4-4-4 4"></path>
+                                    <path d="m12 15.63 0-12.63"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-label">Instagram</p>
+                                <p class="contact-value">@elvisbrito_adv</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12,6 12,12 16,14"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-label">Atendimento</p>
+                                <p class="contact-value">24h para emergências</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-label">Localização</p>
+                                <p class="contact-value">Picos - PI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário de Contato -->
+                <div class="contact-form-container">
+                    <div class="contact-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Envie sua Mensagem</h3>
+                            <p class="card-description">
+                                Preencha o formulário abaixo e entraremos em contato o mais breve possível.
+                            </p>
+                        </div>
+
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Telefone</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Selecione o assunto</option>
+                                    <option value="consulta">Entrar em Contato</option>
+                                    <option value="tribunal-juri">Tribunal do Júri</option>
+                                    <option value="lei-drogas">Lei de Drogas</option>
+                                    <option value="habeas-corpus">Habeas Corpus</option>
+                                    <option value="outros">Outros</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Descreva brevemente sua situação..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22,2 15,22 11,13 2,9 22,2"></polygon>
+                                </svg>
+                                Enviar Mensagem
+                            </button>
+                        </form>
+
+                        <div class="alternative-contact">
+                            <p>Ou entre em contato diretamente:</p>
+                            <div class="card-buttons">
+                                <button class="btn-whatsapp" onclick="openWhatsApp()">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                    WhatsApp
+                                </button>
+                                
+                                <button class="btn-instagram" onclick="openInstagram()">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="m16 11.37-4-4-4 4"></path>
+                                        <path d="m12 15.63 0-12.63"></path>
+                                    </svg>
+                                    Instagram
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="security-note">
+                            <p>🔒 Suas informações são tratadas com total sigilo e segurança</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-divider"></div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-title">DR. ELVIS BRITO</h3>
+                    <p class="footer-subtitle">Advogado Criminal | OAB/PI</p>
+                    <p class="footer-specialty">Especialista em Ciências Criminais</p>
+                    <p class="footer-description">
+                        Mais de 5 anos dedicados à defesa criminal com excelência, 
+                        ética e compromisso com a justiça.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#inicio" onclick="smoothScroll('#inicio')">Início</a></li>
+                            <li><a href="#sobre" onclick="smoothScroll('#sobre')">Sobre</a></li>
+                            <li><a href="#especialidades" onclick="smoothScroll('#especialidades')">Especialidades</a></li>
+                            <li><a href="#operacoes" onclick="smoothScroll('#operacoes')">Operações</a></li>
+                            <li><a href="#servicos" onclick="smoothScroll('#servicos')">Serviços</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Especialidades</h4>
+                        <ul>
+                            <li>Tribunal do Júri</li>
+                            <li>Lei de Drogas</li>
+                            <li>Habeas Corpus</li>
+                            <li>Defesa Criminal</li>
+                            <li>Recursos e Apelações</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li>(89) 9 9453-5859</li>
+                            <li>@elvisbrito_adv</li>
+                            <li>Picos - PI</li>
+                            <li>Atendimento 24h</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-contacts">
+                    <button class="footer-contact-btn" onclick="openWhatsApp()">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </button>
+                    
+                    <button class="footer-contact-btn" onclick="openInstagram()">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="m16 11.37-4-4-4 4"></path>
+                            <path d="m12 15.63 0-12.63"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Dr. Elvis Brito - Advogado Criminal. Todos os direitos reservados.</p>
+                <p>OAB/PI nº 20.005 | Picos - PI</p>
+               <p>Desenvolvido por <a href="https://teuzzx.github.io/duotech0/" target="_blank">DUOTECH</a> | Picos - PI</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/558994535859" class="back-to-top whatsapp-button" target="_blank" title="Fale pelo WhatsApp">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
